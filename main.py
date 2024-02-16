@@ -52,9 +52,9 @@ elif funcion == 2:
     elif menuu == 2:
       gs.read_servi()
     elif menuu == 3:
-      rg.update_user()
+      gs.actualizar()
     elif menuu == 4:
-      rg.eliminar()
+      gs.eliminar()
     elif menuu == 5:
       print("Muchas gracias por utilizar nuestros servicios.")
     
