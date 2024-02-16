@@ -3,10 +3,9 @@
 ## ------------------------------------------------------------------
 
 
-import clientes_leales as cl
 import regis_gesUsuari as rg
 import gestion_servi as gs
-
+import reportes as rp
 print("*"*20)
 print("Bienvenido a MOVISTAR")
 print("*"*20)
@@ -23,7 +22,8 @@ if funcion == 1:
                     "2.Seguimiento historial de usuarios. "
                     "3.Personalizacion de servicios. "
                     "4.Gestion de la fidelizacion de clientes. "
-                    "5.Salir: "))
+                    "5.Clientes leales"
+                    "6.Salir: "))
     if menu == 1:
       option = int(input("1.Crear usuario. "
                     "2.Ver usuarios. "
@@ -46,16 +46,19 @@ elif funcion == 2:
                     "2.Ver servicios existentes. "
                     "3.Actualizar servicios. "
                     "4.Eliminar servicios. "
-                    "5.Salir: "))
+                    "5.Reportes"
+                    "6.Salir: "))
     if menuu == 1:
       gs.add_service()
     elif menuu == 2:
       gs.read_servi()
     elif menuu == 3:
-      gs.actualizar()
+      gs.update_servi()
     elif menuu == 4:
-      gs.eliminar()
+      gs.delete_servi()
     elif menuu == 5:
+      rp.add_report()
+    elif menuu == 6:
       print("Muchas gracias por utilizar nuestros servicios.")
     
 

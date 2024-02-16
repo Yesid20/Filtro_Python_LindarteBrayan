@@ -23,7 +23,7 @@ def read_servi():
   
     return print(data)
 
-def actualizar():
+def update_servi():
     with open('gestion_servi.json', 'r') as archivo:
         data = json.load(archivo)
 
@@ -51,7 +51,7 @@ def actualizar():
     with open('gestion_servi.json', 'w') as archivo:
         json.dump(data, archivo)
 
-def eliminar(): 
+def delete_servi(): 
     #Cargar archivo
     with open('gestion_servi.json', 'r')as archivo:
       data = json.load(archivo)
