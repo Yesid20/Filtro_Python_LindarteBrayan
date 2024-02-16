@@ -1,0 +1,12 @@
+[
+  {
+    "usuario": [
+      {
+        "nombre": "Brayan",
+        "direccion": "Calle 23",
+        "informacion_contacto": "Mama",
+        "categoria": "new_client or client_regul or client_leal"
+      }
+    ]
+  }
+]

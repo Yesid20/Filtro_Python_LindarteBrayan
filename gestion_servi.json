@@ -1,0 +1,16 @@
+[
+  {
+    "servicio": [
+      {
+        "name": "Plan hogar",
+        "caracteristicas": "new_client or client_regul or client_leal",
+        "precio": "internet, tv, telefonia fija, plan de datos, financiamiento de equipo"
+      }
+    ]
+  },
+  {
+    "name": "Movistar Hogar",
+    "caracteristicas": "Este plan cuenta con la posibilidad de contar con 3 decodifica",
+    "precio": 90000
+  }
+]
